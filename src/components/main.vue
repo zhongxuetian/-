@@ -20,7 +20,7 @@
         <el-image style="width: 150px; height: 150px" :src="item.imageUrl"></el-image>
         <div class="btns">
           <!-- <el-link type="primary">属性</el-link> -->
-          <!-- <el-link type="primary" class="up">编辑</el-link> -->
+          <el-link type="primary" class="copyUrl">复制链接</el-link>
           <el-link type="info" class="del" @click="showDelFrame">删除</el-link>
         </div>
       </el-card>
@@ -153,7 +153,7 @@ export default {
     .btns {
       display: flex;
       justify-content: flex-end;
-      .up {
+      .copyUrl {
         margin: 0 10px;
       }
     }
