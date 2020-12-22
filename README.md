@@ -1,3 +1,2 @@
-# 简介
-
-### 管理文件（上传/下载）
+﻿### yarn install 
+### yarn serve 
